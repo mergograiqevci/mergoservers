@@ -1,0 +1,134 @@
+.body{
+    background-color:#f0f1f3;
+}
+.formlogin{
+    display: inline-flex;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    width: 60%;
+    height: 500px;
+    border-radius: 15px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+    0 10px 10px rgba(0,0,0,0.22);
+}
+.leftform{
+    width: 50%;
+    background-color: white;
+}
+.leftform h1{
+    font-weight: bold;
+    margin-top: 15%;
+    font-size: 30px;
+    text-align: center;
+
+}
+.fa{
+    padding: 10px;
+    font-size: 31px;
+    width: 10%;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+  
+.fa:hover {
+    opacity: 0.7;
+}
+  
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+    border-radius: 15px;
+    margin-left:35%;
+}
+.fa-google{
+    background: #dd4b39;
+    color: white;
+    border-radius: 15px;
+}
+  
+.fa-linkedin{
+    background: #007bb5;
+    color: white;
+    border-radius: 15px;
+}
+
+#paragraph{
+    text-align: center;
+    font-size: 17px;
+}
+#incorrectdata{
+    text-align: center;
+    color: red;
+    font-size: 100px;
+}
+#paragraph1{
+    text-align: center;
+    float: right;
+    font-size: 20px;
+}
+#buttonsignin{
+    margin-left: 35%;
+    width: 30%;
+    height: 40px;
+    border-radius: 15px;
+    background-color: #3B5998;
+}
+#buttonsignin:hover{
+    background-color:#FF416C;
+}
+
+#buttonhome{
+    margin-right:1%;
+    margin-top: 1%;
+    width: 20%;
+    float: right;
+    font-weight: bold;
+    height: 40px;
+    border-radius: 15px;
+    background-color: #3B5998;
+}
+#buttonhome:hover{
+    color: black;
+    background-color:white;
+}
+.field{
+    margin-left: 15%;
+    padding-left: 5px;
+    width: 70%;
+    height: 40px;
+    border-radius: 5px;
+    border-color: white;
+    background-color: #f6f5f7;
+}
+.rightform{
+    width: 50%;
+    background-color:#FF416C;
+}
+.rightform h1{
+    font-weight: bold;
+    margin-top: 35%;
+    font-size: 25px;
+    text-align: center;
+    color: white;
+}
+.rightform p{
+    font-size: 18px;
+    text-align: center;
+    color: white;
+}
+#buttonsignup{
+    margin-left: 35%;
+    width: 30%;
+    height: 40px;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    background-color: #FF416C;
+}
+#buttonsignup:hover{
+    background-color: #3B5998;
+}

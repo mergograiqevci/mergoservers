@@ -1,0 +1,107 @@
+#pop{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-image: url("images/backg.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+#forma{
+    padding:3%;
+    border-style: solid;
+    border-width: 2px;
+    background-color: white;
+    border-radius: 5%;
+    margin: 3%;
+}
+#paragraphsize{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+#emri,#emrimesem,#mbiemri{
+    margin-top: 2%;
+    margin-bottom: 1%;
+    height: 30px;
+    width: 32.5%;
+    border-radius: 7%;
+    font-size: 15px;
+}
+#email,#street,#address{
+    height: 30px;
+    width: 99%;
+    border-radius: 7%;
+    font-size: 15px;
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
+#zip,#city{
+    height: 30px;
+    width: 49.2%;
+    border-radius: 7%;
+    font-size: 15px;
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
+#phone,#areacode{
+    height: 30px;
+    width: 15%;
+    border-radius: 7%;
+    font-size: 15px;
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
+#telnumber{
+    height: 30px;
+    width: 46.5%;
+    border-radius: 7%;
+    font-size: 15px;
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
+#phonelabel{
+    font-size: 20px;
+    margin-right: 10%;
+}
+#informatat{
+    text-align: center;
+    font-size: 15px;
+    color: red;
+}
+#username,#psw,#psw1{
+    margin-top: 2%;
+    margin-bottom: 1%;
+    height: 30px;
+    width: 32.6%;
+    border-radius: 7%;
+    font-size: 15px;
+}
+#readterms{
+    font-size: 17px;
+    margin-top: 5%;
+    margin-left: 3px;
+}
+
+#fillinformation{
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 5%;
+}
+#cardnumber,#expirydate,#cvc{
+    margin-top: 2%;
+    margin-bottom: 1%;
+    height: 30px;
+    width: 31%;
+    border-radius: 7%;
+    font-size: 15px;
+}
+#orderbutton{
+    float: right;
+    height: 50px;
+    width: 120px;
+    font-size: 15px;
+    border-radius: 12%;
+    background-color:rgb(50, 197, 255);
+    color: white;
+    font-weight: bold;
+}
